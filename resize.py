@@ -77,3 +77,4 @@ cv2.imwrite("ratio_"+sys.argv[1],pad)
 pad = cv2.resize(pad,dsize= (608,608),interpolation=cv2.INTER_LINEAR);
 cv2.imwrite("resized_"+sys.argv[1],pad)
 f.close()
+
