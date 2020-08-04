@@ -4,3 +4,4 @@ do
    	 python3 rotate.py -i  $file -a 90
     fi
 done
+ 
