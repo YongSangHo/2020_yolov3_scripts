@@ -139,3 +139,4 @@ if __name__ == "__main__":
         with open(file_name, 'a') as fout:
             fout.writelines(
                 ' '.join(map(str, cvFormattoYolo(i, im.rotate_image().shape[0], im.rotate_image().shape[1]))) + '\n')
+            
