@@ -5,3 +5,4 @@ do
 	 cp ${file:0 : -4}.txt reflection_${file:0 : -4}.txt
     fi
 done
+ 
