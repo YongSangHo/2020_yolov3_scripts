@@ -44,5 +44,6 @@ patch = np.where(patch==0,np.uint8(src*0.4),patch)
 dst = cv2.addWeighted(src,0.5,patch,0.5,50)
 
 cv2.imwrite("reflection_"+src_file,dst)
-	
+
+
 
