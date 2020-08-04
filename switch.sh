@@ -4,3 +4,4 @@ do
    	 python3 switch.py $file
     fi
 done
+
