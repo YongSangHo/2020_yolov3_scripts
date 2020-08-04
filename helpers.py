@@ -15,6 +15,7 @@ def yoloFormattocv(x1, y1, x2, y2, H, W):
 
     return [int(v) for v in voc]
 
+
 # convert from opencv format to yolo format
 # H,W is the image height and width
 def cvFormattoYolo(corner, H, W):
