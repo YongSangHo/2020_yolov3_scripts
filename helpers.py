@@ -7,6 +7,7 @@ def yoloFormattocv(x1, y1, x2, y2, H, W):
 
     voc = []
 
+    
     voc.append(center_x - (bbox_width / 2))
     voc.append(center_y - (bbox_height / 2))
     voc.append(center_x + (bbox_width / 2))
